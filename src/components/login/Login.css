@@ -1,0 +1,78 @@
+.card {
+    background-color: #1D381E;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    border-radius: 12px;
+    width: 25%;
+}
+
+.card h2{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 0;
+}
+
+.head-card {
+    margin: 20px 0 0;
+}
+
+.head-card h3 {
+    color: #ffffff;
+    font-weight: normal;
+    padding: 10px 0 5px;
+}
+
+.head-card input {
+    padding: 10px 0 10px 10px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.head-card input:focus {
+    outline: none;
+}
+
+.head-card button {
+    background-color: #2bb32a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 20px 0 10px;
+}
+
+.password-lost {
+    color: #ffffff;
+    
+    margin: 10px 0;
+}
+
+.password-lost h4 {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.register {
+    color: #2bb32a;
+}
+
+.password-lost p:hover,
+.password-lost span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #2bb32a;
+}
+
+.footer-card {
+    margin: 10px auto;
+    padding: 8px 0 ;
+    text-align: center;
+}
+
