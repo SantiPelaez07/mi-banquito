@@ -1,13 +1,19 @@
 import './App.css'
 import { Navbar } from './components/navBar/Navbar'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Login } from './components/login/Login'
 
 
 function App() {
 
   return (
     <>
+      <BrowserRouter>
       <Navbar />
-      <p>Estoy desde app</p>
+        <Routes>
+            <Route path = "/login" element = {<Login />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
