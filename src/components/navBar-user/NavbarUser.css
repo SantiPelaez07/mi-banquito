@@ -1,0 +1,34 @@
+.options {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li button {
+    background: none;
+    color: #ffffff;
+    border: 1px solid #2bb32a;
+    cursor: pointer;
+}
+
+li button::hover {
+    background-color: #0f2d19;
+    color: #ffffff;
+    font-weight: bold;
+    transition: .2s;
+}
+
+
+.logout-button {
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;   
+}
+
