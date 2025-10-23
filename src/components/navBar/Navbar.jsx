@@ -6,7 +6,7 @@ export function Navbar() {
         <nav>
             <div className= "nav-container">
                 <div className="img">
-                    <img src="" alt="Logo" />
+                    <img src="/src/assets/logo.png" alt="Logo" />
                 </div>
                 <ul className="options">
                     

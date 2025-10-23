@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
 import { Login } from './components/login/Login'
 import { Home } from './pages/home/Home'
+import { Profile } from './pages/profile/Profile'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
@@ -22,6 +23,8 @@ function App() {
         <Route path="/"/>
         <Route path="/login" element={<Login onLogin={handleLogin} />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/perfil" element={<Profile />} />
+
       </Routes>
     </BrowserRouter>
   )
