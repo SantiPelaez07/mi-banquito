@@ -49,7 +49,7 @@ export function Home() {
                             <h3>Saldo disponible</h3>
                             <p>$5.000,00</p>
                         </div>
-                        <button>Retirar</button>
+                        <button>Pedir prestamo</button>
                     </div>
             </div>
         </div>

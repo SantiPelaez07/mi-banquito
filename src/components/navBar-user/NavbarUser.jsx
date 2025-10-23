@@ -13,10 +13,10 @@ export function NavbarUser({ onLogout }) {
     <nav>
       <div className="nav-container">
         <div className="img">
-          <img src="" alt="Logo" />
+          <img src="/src/assets/logo.png" alt="Logo" />
         </div>
         <ul className="options">
-          <li><Link to="/">Inicio</Link></li>
+          <li><Link to="/home">Inicio</Link></li>
           <li><Link to="/perfil">Enviar dinero</Link></li>
           <li><Link to="/perfil">Retirar</Link></li>
           <li><Link to="/perfil">Perfil</Link></li>
