@@ -1,0 +1,198 @@
+.welcomeMessage {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcomeMessage h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.containers {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstContainer {
+    width: 40%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstContainer .card {
+    width: 70%;
+    height: 50%;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(135deg, #0f2d19, #2bb32a);
+}
+
+
+
+.card .nameCard {
+    width: 100%;
+    margin: 0 0 4% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameCard img {
+    margin: 0 8% 0 0;
+    width: 60px;
+    height: auto;
+}
+
+
+.chip {
+    width: 100%;;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 5% 15%;
+}
+
+.chip img {
+    margin: 0 1% 1%;
+    width: 50px;
+    object-fit: cover;
+}
+
+.chip .cardNumber {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cardNumber h1 {
+    font-family: 'OCR A Std', 'Credit Card', monospace;
+    color: #E5E4E2;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin: 0 0 2%;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.6),
+                -5px -2px 2px rgba(255, 255, 255, 0.2); 
+}
+
+.cardHolder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 0 0 0;
+}
+
+.cardHolder p {
+    color: #ffffff;
+    margin: 0 0 0 8%;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.6),
+                -5px -2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.cardHolder .typeCard {
+    margin: 0 5% 0 0;
+}
+
+.typeCard h1 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.dateCard {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.dateCard span {
+    margin: 0 5% 0;
+    color: #ffffff;
+}
+
+.dateCard p {
+    margin: 0 5% 0;
+    color: #ffffff;
+    text-shadow: 5px 7px 3px rgba(0, 0, 0, 0.6),
+                -5px -2px 2px rgba(255, 255, 255, 0.2);
+}
+
+.ValidationDate {
+    font-size: 10px;
+}
+
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.infoAccount {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 5%;;
+}
+
+.secondContainer h2 {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 10% 0 0;
+}
+
+
+.accountNumber,
+.accountType,
+.accountBalance {
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+
+.availableBalance {
+    margin: 4% 0 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+
+
+.infoAccount button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0f2d19;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5% 0 0;
+}
+
+
